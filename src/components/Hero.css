@@ -1,0 +1,45 @@
+.hero {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(
+      to bottom right,
+      var(--bg-primary),
+      var(--bg-secondary)
+    );
+  }
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  .hero-title {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    color: var(--text-secondary);
+    margin-bottom: 2rem;
+  }
+  
+  .accent {
+    color: var(--accent);
+  }
+  
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .btn-outline {
+    background: transparent;
+    border: 2px solid var(--accent);
+  }
+  
+  .btn-outline:hover {
+    background: var(--accent);
+  }
